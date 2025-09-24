@@ -4,7 +4,7 @@ int num;
 printf("Enter a number:");
 scanf("%d",&num);
 int Esum=0,Osum=0;
-for (int i=1; i<=num;i++){
+for (int i=1; i<num;i++){
     if (i%2 ==0){
         Esum += i;
     }

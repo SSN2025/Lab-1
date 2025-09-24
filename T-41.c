@@ -8,8 +8,5 @@ scanf("%d",&num);
         printf("%d ",i);
     }
  }
-
-
-
     return 0;
 }

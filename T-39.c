@@ -9,7 +9,7 @@ float sum=0;
 for (float i=1; i <=num;i++){
     sum += i/fact(i);
 }
-printf("%f",sum);
+printf("Answer is: %f",sum);
 return 0; 
 }
 

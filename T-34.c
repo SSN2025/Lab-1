@@ -10,7 +10,9 @@
 }
 }
 int main(){
-   int n = 5;
+   int n;
+   printf("Enter the number of numbers:");
+   scanf("%d",&n);
    for (int i=1;i<=n;i++){
       printf("%d \t",f(i));
    }

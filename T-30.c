@@ -6,7 +6,6 @@ int digit_count(int num){
     while(num/((int)pow(10,i))  !=  0){      
         i++;
     }
-
     return i;}
 
 

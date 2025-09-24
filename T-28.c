@@ -27,9 +27,7 @@ float Armstrong(int o_num,int a[],int size){
 int digit_count(int num){
     int i =0;
     while(num/((int)pow(10,i))  !=  0){      
-        i++;
-    }
-
+        i++;}
     return i;
 }
 

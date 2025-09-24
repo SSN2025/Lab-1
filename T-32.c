@@ -2,10 +2,7 @@
 int max(int nums[],int size,int *pointer);
 int max_2nd(int nums[],int size,int *pointer);
 
-
-
 int main(){
-    
     int size;
     printf("Enter the number of numbers:");
     scanf("%d",&size);
